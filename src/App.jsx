@@ -21,7 +21,7 @@ function App() {
   return (
    
     <div className='container' style={bgStyle}>
-      <img className='container__img' src="./public/animado.png" alt="" />
+      <img className='container__img' src="/animado.png" alt="esto es una galleta" />
       <h1 className='container__title'>Galleta de la fortuna</h1>
       <Quote phrase={quote}/>
       <BtnQuote 
